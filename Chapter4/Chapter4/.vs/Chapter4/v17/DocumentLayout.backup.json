@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\dashboard\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\dashboard\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\dashboard\\dashboardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\dashboard\\dashboardstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\dashboard\\widgetfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\dashboard\\widgetfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\dashboard\\notificationwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\dashboard\\notificationwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\dashboard\\listwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\dashboard\\listwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\dashboard\\chartwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\dashboard\\chartwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter4\\chapter4\\chapter4\\components\\dashboard\\widget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFFB8F28-6A85-4C55-8877-68FAE5C3593F}|Chapter4\\Chapter4.csproj|solutionrelative:chapter4\\components\\dashboard\\widget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Program.cs",
+              "RelativeDocumentMoniker": "Chapter4\\Program.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Program.cs",
+              "RelativeToolTip": "Chapter4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T18:03:14.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardState.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\DashboardState.cs",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Dashboard\\DashboardState.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\DashboardState.cs",
+              "RelativeToolTip": "Chapter4\\Components\\Dashboard\\DashboardState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T18:00:54.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\Dashboard.razor",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Dashboard\\Dashboard.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\Dashboard.razor",
+              "RelativeToolTip": "Chapter4\\Components\\Dashboard\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T18:00:06.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WidgetFactory.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\WidgetFactory.cs",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Dashboard\\WidgetFactory.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\WidgetFactory.cs",
+              "RelativeToolTip": "Chapter4\\Components\\Dashboard\\WidgetFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:59:28.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationWidget.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\NotificationWidget.cs",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Dashboard\\NotificationWidget.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\NotificationWidget.cs",
+              "RelativeToolTip": "Chapter4\\Components\\Dashboard\\NotificationWidget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:58:55.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListWidget.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\ListWidget.cs",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Dashboard\\ListWidget.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\ListWidget.cs",
+              "RelativeToolTip": "Chapter4\\Components\\Dashboard\\ListWidget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:58:09.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "Chapter4\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-18T17:38:43.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Chapter4\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T17:01:31.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChartWidget.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\ChartWidget.cs",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Dashboard\\ChartWidget.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\ChartWidget.cs",
+              "RelativeToolTip": "Chapter4\\Components\\Dashboard\\ChartWidget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:56:45.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Widget.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\Widget.cs",
+              "RelativeDocumentMoniker": "Chapter4\\Components\\Dashboard\\Widget.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter4\\Chapter4\\Chapter4\\Components\\Dashboard\\Widget.cs",
+              "RelativeToolTip": "Chapter4\\Components\\Dashboard\\Widget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:56:18.847Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

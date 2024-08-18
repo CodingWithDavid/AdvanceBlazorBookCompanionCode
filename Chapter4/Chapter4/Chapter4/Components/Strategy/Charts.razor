@@ -1,0 +1,23 @@
+﻿@page "/Charts"
+
+<h3>Charts</h3>
+
+<button @onclick="() => SetChartStrategy(new LineChartStrategy())">Line Chart</button>
+<button @onclick="() => SetChartStrategy(new BarChartStrategy())">Bar Chart</button>
+<button @onclick="() => SetChartStrategy(new PieChartStrategy())">Pie Chart</button>
+
+@if (chartStrategy != null)
+{
+    @chartStrategy.RenderChart()
+}
+
+
+@code {
+    private IChartStrategy? chartStrategy;
+
+    private void SetChartStrategy(IChartStrategy strategy)
+    {
+        chartStrategy = strategy;
+    }
+
+}

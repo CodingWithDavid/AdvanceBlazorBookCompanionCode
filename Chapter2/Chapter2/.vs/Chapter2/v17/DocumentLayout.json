@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter2\\chapter2\\chapter2\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|solutionrelative:chapter2\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter2\\chapter2\\chapter2\\components\\pages\\nametemplatesample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|solutionrelative:chapter2\\components\\pages\\nametemplatesample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter2\\chapter2\\chapter2\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|solutionrelative:chapter2\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter2\\chapter2\\chapter2\\components\\pages\\panelsample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|solutionrelative:chapter2\\components\\pages\\panelsample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter2\\chapter2\\chapter2\\components\\pages\\framentsampleholder.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|solutionrelative:chapter2\\components\\pages\\framentsampleholder.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter2\\chapter2\\chapter2\\components\\pages\\dynamicsample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EFFE3AA-BFFE-4BCC-9925-29776BE17F5D}|Chapter2\\Chapter2.csproj|solutionrelative:chapter2\\components\\pages\\dynamicsample.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Chapter2\\Components\\App.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\App.razor",
+              "RelativeToolTip": "Chapter2\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T17:48:37.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NameTemplateSample.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\Pages\\NameTemplateSample.razor",
+              "RelativeDocumentMoniker": "Chapter2\\Components\\Pages\\NameTemplateSample.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\Pages\\NameTemplateSample.razor",
+              "RelativeToolTip": "Chapter2\\Components\\Pages\\NameTemplateSample.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T17:47:59.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Chapter2\\Components\\_Imports.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\_Imports.razor",
+              "RelativeToolTip": "Chapter2\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T17:47:39.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PanelSample.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\Pages\\PanelSample.razor",
+              "RelativeDocumentMoniker": "Chapter2\\Components\\Pages\\PanelSample.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\Pages\\PanelSample.razor",
+              "RelativeToolTip": "Chapter2\\Components\\Pages\\PanelSample.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T17:47:33.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FramentSampleHolder.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\Pages\\FramentSampleHolder.razor",
+              "RelativeDocumentMoniker": "Chapter2\\Components\\Pages\\FramentSampleHolder.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\Pages\\FramentSampleHolder.razor",
+              "RelativeToolTip": "Chapter2\\Components\\Pages\\FramentSampleHolder.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T17:47:27.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DynamicSample.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\Pages\\DynamicSample.razor",
+              "RelativeDocumentMoniker": "Chapter2\\Components\\Pages\\DynamicSample.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter2\\Chapter2\\Chapter2\\Components\\Pages\\DynamicSample.razor",
+              "RelativeToolTip": "Chapter2\\Components\\Pages\\DynamicSample.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T17:47:10.095Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

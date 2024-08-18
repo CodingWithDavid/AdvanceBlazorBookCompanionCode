@@ -1,0 +1,30 @@
+﻿@page "/composite"
+
+<h3>Composite Form</h3>
+
+@formGroup.Render()
+
+<h3>Button</h3>
+
+<ButtonComponent buttonStyleStrategy="new DangerButtonStrategy()" OnClick="HandleClick">
+    Delete
+</ButtonComponent>
+
+
+@code {
+
+    private FormGroupComponent formGroup = new FormGroupComponent();
+
+    protected override void OnInitialized()
+    {
+        formGroup.Add(new TextFieldComponent());
+        formGroup.Add(new CheckboxComponent());
+        // Add more components as needed
+    }
+
+    private void HandleClick()
+    {
+        Console.WriteLine("Delete Clicked");
+    }
+
+}

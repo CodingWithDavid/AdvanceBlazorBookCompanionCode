@@ -1,0 +1,15 @@
+﻿@page "/virtualize"
+
+<h3>Large Data Set</h3>
+
+<Virtualize Items="@largeDataSet" ItemSize="50">
+    <p>
+        <div>@context</div>
+    </p>
+</Virtualize>
+
+
+@code {
+
+    private List<string> largeDataSet = Enumerable.Range(1, 10000).Select(i => $"Item {i}").ToList();
+}

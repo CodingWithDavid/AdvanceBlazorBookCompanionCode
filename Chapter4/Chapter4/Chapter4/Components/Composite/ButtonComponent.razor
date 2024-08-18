@@ -1,0 +1,12 @@
+﻿<!-- ButtonComponent.razor -->
+<button class="@buttonStyleStrategy.GetCssClass()" @onclick="OnClick">
+    @ChildContent
+</button>
+
+@code {
+    [Parameter] public IButtonStyleStrategy buttonStyleStrategy { get; set; } = new PrimaryButtonStrategy();
+    [Parameter] public EventCallback OnClick { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+}
+
+

@@ -1,0 +1,25 @@
+﻿@page "/sessionState"
+
+@inject IJSRuntime JS
+
+<h3>Session Component</h3>
+
+<button @onclick="SaveSessionState">Save State to Session</button>
+<button @onclick="LoadSessionState">Load State from Session</button>
+
+<p>Session State: @sessionState</p>
+
+@code {
+    private string sessionState = "Not Loaded";
+
+    private async Task SaveSessionState()
+    {
+        await JS.InvokeVoidAsync("sessionStorage.setItem", "sessionState", "Session-based state");
+    }
+
+    private async Task LoadSessionState()
+    {
+        sessionState = await JS.InvokeAsync<string>("sessionStorage.getItem", "sessionState") ?? "No State";
+    }
+}
+

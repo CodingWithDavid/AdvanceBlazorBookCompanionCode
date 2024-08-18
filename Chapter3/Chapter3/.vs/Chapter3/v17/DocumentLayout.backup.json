@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\pages\\virtualization\\largedataset.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\pages\\virtualization\\largedataset.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\pages\\statepersistence\\sessioncomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\pages\\statepersistence\\sessioncomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\pages\\statepersistence\\localstoragepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\pages\\statepersistence\\localstoragepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\pages\\eventcallback\\parentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\pages\\eventcallback\\parentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\pages\\eventcallback\\childcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\pages\\eventcallback\\childcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\services\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\services\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\pages\\loginform\\loginform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\pages\\loginform\\loginform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|c:\\initialsandbox\\advanceblazorbookcompanioncode\\chapter3\\chapter3\\chapter3\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CC5F2B3-8F2A-4E1D-AC4B-841F4D0BB953}|Chapter3\\Chapter3.csproj|solutionrelative:chapter3\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "Chapter3\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-17T20:56:32.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalStoragePage.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\StatePersistence\\LocalStoragePage.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Pages\\StatePersistence\\LocalStoragePage.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\StatePersistence\\LocalStoragePage.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Pages\\StatePersistence\\LocalStoragePage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T20:35:18.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Program.cs",
+              "RelativeDocumentMoniker": "Chapter3\\Program.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Program.cs",
+              "RelativeToolTip": "Chapter3\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:32:39.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppState.cs",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Services\\AppState.cs",
+              "RelativeDocumentMoniker": "Chapter3\\Services\\AppState.cs",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Services\\AppState.cs",
+              "RelativeToolTip": "Chapter3\\Services\\AppState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:32:12.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T18:30:37.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T18:29:01.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\App.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\App.razor",
+              "RelativeToolTip": "Chapter3\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T18:28:26.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T18:23:43.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LargeDataSet.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\Virtualization\\LargeDataSet.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Pages\\Virtualization\\LargeDataSet.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\Virtualization\\LargeDataSet.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Pages\\Virtualization\\LargeDataSet.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T20:44:55.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SessionComponent.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\StatePersistence\\SessionComponent.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Pages\\StatePersistence\\SessionComponent.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\StatePersistence\\SessionComponent.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Pages\\StatePersistence\\SessionComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T20:39:30.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChildComponent.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\EventCallback\\ChildComponent.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Pages\\EventCallback\\ChildComponent.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\EventCallback\\ChildComponent.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Pages\\EventCallback\\ChildComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T19:27:30.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ParentComponent.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\EventCallback\\ParentComponent.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Pages\\EventCallback\\ParentComponent.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\EventCallback\\ParentComponent.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Pages\\EventCallback\\ParentComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T19:26:22.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T18:38:55.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginForm.razor",
+              "DocumentMoniker": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\LoginForm\\LoginForm.razor",
+              "RelativeDocumentMoniker": "Chapter3\\Components\\Pages\\LoginForm\\LoginForm.razor",
+              "ToolTip": "C:\\InitialSandbox\\AdvanceBlazorBookCompanionCode\\Chapter3\\Chapter3\\Chapter3\\Components\\Pages\\LoginForm\\LoginForm.razor",
+              "RelativeToolTip": "Chapter3\\Components\\Pages\\LoginForm\\LoginForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T18:22:31.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

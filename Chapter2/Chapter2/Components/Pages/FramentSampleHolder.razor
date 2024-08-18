@@ -1,0 +1,14 @@
+﻿@page "/FramentSampleHolder"
+
+@using Chapter2.Components.Controls
+
+<h3>Fragment Sample Holder</h3>
+
+<RazorFragmentSample HeaderContent = "title" BodyContent="body" FooterContent="footer">    
+</RazorFragmentSample> 
+
+@code {
+    RenderFragment title = @<h4>Card Title</h4>;
+        RenderFragment body = @<p> This is the main content of the card.</p>;
+        RenderFragment footer = @<button class="btn btn-primary">Action</button>;
+}

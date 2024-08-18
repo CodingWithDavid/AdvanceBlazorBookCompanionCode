@@ -1,0 +1,57 @@
+﻿@page "/DynamicSample"
+
+@using Chapter2.Components.Controls
+@using Microsoft.AspNetCore.Components
+
+<!-- DynamicComponentDemo.razor -->
+@foreach (var componentType in componentTypes)
+{
+    var parametersForComponent = GetParametersForComponent(componentType);
+    <DynamicComponent Type="@componentType" Parameters="@parametersForComponent" />
+}
+
+@code {
+    private List<Type> componentTypes = new List<Type>
+    {
+        typeof(TextComponent),
+        typeof(ImageComponent),
+        typeof(ButtonComponent)
+    };
+
+    private Dictionary<string, object> parameters = new Dictionary<string, object>
+    {
+        { "Text", "Dynamic content here" },
+        { "ImageUrl", "example.jpg" },
+        { "ButtonLabel", "Click Me" }
+    };
+
+    private Dictionary<string, object> GetParametersForComponent(Type componentType)
+    {
+        if (componentType == typeof(TextComponent))
+        {
+            return new Dictionary<string, object>
+            {
+                { "Text", "Dynamic content here" }
+            };
+        }
+        else if (componentType == typeof(ImageComponent))
+        {
+            return new Dictionary<string, object>
+            {
+                { "ImageUrl", "example.jpg" }
+            };
+        }
+        else if (componentType == typeof(ButtonComponent))
+        {
+            return new Dictionary<string, object>
+            {
+                { "ButtonLabel", "Click Me" }
+            };
+        }
+        else
+        {
+            return new Dictionary<string, object>();
+        }
+    }
+}
+

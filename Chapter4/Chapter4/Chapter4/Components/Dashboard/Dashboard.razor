@@ -1,0 +1,55 @@
+﻿@page "/dashboard"
+
+@inject WidgetFactory widgetFactory
+@inject DashboardState dashboardState
+
+
+<div class="dashboard">
+    <button @onclick='() => AddWidget("chart")'>Add Chart</button>
+    <button @onclick='() => AddWidget("list")'>Add List</button>
+    <button @onclick='() => AddWidget("notification")'>Add Notification</button>
+
+    @foreach (var widget in widgets)
+    {
+        <div class="widget">
+            @widget.Render()
+            <button @onclick="() => RemoveWidget(widget)">Remove</button>
+        </div>
+    }
+</div>
+
+@code {
+    private List<IWidget> widgets = new();
+
+    private void RemoveWidget(IWidget widget)
+    {
+        widgets.Remove(widget);
+    }
+    protected override void OnInitialized()
+    {
+        dashboardState.OnChange += UpdateWidgets;
+    }
+
+    private void AddWidget(string widgetType)
+    {
+        dashboardState.AddWidgetType(widgetType);
+        UpdateWidgets();
+    }
+
+    private void UpdateWidgets()
+    {
+        widgets.Clear();
+        foreach (var widgetType in dashboardState.WidgetTypes)
+        {
+            widgets.Add(widgetFactory.CreateWidget(widgetType));
+        }
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        dashboardState.OnChange -= UpdateWidgets;
+    }
+
+}
+

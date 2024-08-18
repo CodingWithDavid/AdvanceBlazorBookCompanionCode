@@ -1,0 +1,35 @@
+﻿@page "/namedTemplete"
+
+@using Chapter2.Components.Controls
+
+<h3>NameTemplateSample</h3>
+
+<!-- Usage of Table component -->
+<NamedTempate>
+    <HeaderTemplate>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </HeaderTemplate>
+    <BodyTemplate>
+        <tr>
+            <td>John Doe</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>28</td>
+        </tr>
+    </BodyTemplate>
+    <FooterTemplate>
+        <tr>
+            <td colspan="2">Footer Content Here</td>
+        </tr>
+    </FooterTemplate>
+</NamedTempate>
+
+
+@code {
+
+}

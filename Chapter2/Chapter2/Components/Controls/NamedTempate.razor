@@ -1,0 +1,24 @@
+﻿<!-- Table.razor -->
+<table class="table">
+    <thead>
+        @HeaderTemplate
+    </thead>
+    <tbody>
+        @BodyTemplate
+    </tbody>
+    <tfoot>
+        @FooterTemplate
+    </tfoot>
+</table>
+
+@code {
+    [Parameter]
+    public RenderFragment? HeaderTemplate { get; set; }
+
+    [Parameter]
+    public RenderFragment? BodyTemplate { get; set; }
+
+    [Parameter]
+    public RenderFragment? FooterTemplate { get; set; }
+
+}

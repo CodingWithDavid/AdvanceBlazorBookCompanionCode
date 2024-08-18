@@ -1,0 +1,32 @@
+﻿@page "/login"
+
+@using Chapter3.Services
+
+@inject AppState appState
+
+<p>Current Theme: @appState.Theme</p>
+
+<h3>LoginForm</h3>
+
+<!-- LoginForm.razor -->
+<EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+    <InputText @bind-Value="loginModel.Username" placeholder="Enter user name" />
+    <InputText @bind-Value="loginModel.Password" placeholder="Enter password" type="password" />
+    <button type="submit">Login</button>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+
+    private void HandleLogin()
+    {
+        // Handle login logic here
+    }
+
+    private class LoginModel
+    {
+        public string Username { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+    }
+}
+

@@ -1,0 +1,25 @@
+﻿@page "/LocalStoragePage"
+
+@inject IJSRuntime JS
+
+<h3>Local Storage Page</h3>
+
+<button @onclick="SaveState">Save State</button>
+<button @onclick="LoadState">Load State</button>
+
+<p>Stored State: @storedState</p>
+
+@code {
+    private string storedState = "Not Loaded";
+
+    private async Task SaveState()
+    {
+        await JS.InvokeVoidAsync("localStorage.setItem", "appState", "My persisted state");
+    }
+
+    private async Task LoadState()
+    {
+        storedState = await JS.InvokeAsync<string>("localStorage.getItem", "appState") ?? "No State";
+    }
+}
+

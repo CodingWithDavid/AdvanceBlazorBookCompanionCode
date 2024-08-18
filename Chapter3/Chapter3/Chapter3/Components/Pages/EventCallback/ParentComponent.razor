@@ -1,0 +1,21 @@
+﻿@page "/eventcallback"
+
+<h3>Parent Component</h3>
+
+@parentState
+
+<!-- ParentComponent.razor -->
+<ChildComponent OnStateChanged="HandleStateChanged" />
+
+@code {
+    private string parentState = "Initial State";
+
+    private void HandleStateChanged(string newState)
+    {
+        parentState = newState;
+        
+    }
+}
+
+
+

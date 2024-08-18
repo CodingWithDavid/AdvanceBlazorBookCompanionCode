@@ -1,0 +1,29 @@
+﻿@page "/"
+
+@using Chapter3.Services
+
+@inject AppState appState
+
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, @CurrentUser</h1>
+
+Welcome to your new app.
+
+<button @onclick="ToggleTheme"> Toggle Theme</button>
+<p>Current Theme: @appState.Theme</p>
+
+
+@code {
+    [CascadingParameter]
+    public string CurrentUser { get; set; } = default!;
+
+    private void ToggleTheme()
+    {
+        var newTheme = appState.Theme == "Light" ? "Dark" : "Light";
+        appState.SetTheme(newTheme);
+    }
+
+}
+

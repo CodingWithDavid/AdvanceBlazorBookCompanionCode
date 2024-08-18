@@ -1,0 +1,30 @@
+﻿@page "/noteService"
+
+@using Chapter4.Service
+
+@inject NotificationService notificationService
+
+<h3>NotificationServiceExample</h3>
+
+<p>@notificationMessage</p>
+
+@code {
+    private string notificationMessage = "No notifications";
+
+    protected override void OnInitialized()
+    {
+        notificationService.OnNotification += HandleNotification;
+    }
+
+    private void HandleNotification(string message)
+    {
+        notificationMessage = message;
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        notificationService.OnNotification -= HandleNotification;
+    }
+
+}

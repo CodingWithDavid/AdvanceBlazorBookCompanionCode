@@ -1,0 +1,27 @@
+﻿@page "/notifications"
+
+@inject NotificationFactory notificationFactory
+
+<h3>Notifications</h3>
+
+
+
+<button @onclick='() => ShowNotification("success")'>Show Success</button>
+<button @onclick='() => ShowNotification("error")'>Show Error</button>
+<button @onclick='() => ShowNotification("warning")'>Show Warning</button>
+
+
+@if (notification != null)
+{
+    @notification.Render()
+}
+
+@code {
+    private INotification? notification;
+
+    private void ShowNotification(string type)
+    {
+        notification = notificationFactory.CreateNotification(type);
+    }
+}
+
