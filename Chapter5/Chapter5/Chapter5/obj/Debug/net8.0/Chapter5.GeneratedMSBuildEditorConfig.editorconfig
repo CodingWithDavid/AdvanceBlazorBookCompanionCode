@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Chapter5
+build_property.RootNamespace = Chapter5
+build_property.ProjectDir = D:\CodingWithDavid\Respoitories\AdvanceBlazorBookCompanionCode\Chapter5\Chapter5\Chapter5\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\CodingWithDavid\Respoitories\AdvanceBlazorBookCompanionCode\Chapter5\Chapter5\Chapter5
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/ScopedStyles.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTY29wZWRTdHlsZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/Transitions/AnimatedBox.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUcmFuc2l0aW9uc1xBbmltYXRlZEJveC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/Transitions/AnimatedButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUcmFuc2l0aW9uc1xBbmltYXRlZEJ1dHRvbkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/Transitions/Spinner.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUcmFuc2l0aW9uc1xTcGlubmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/Transitions/TriggerModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUcmFuc2l0aW9uc1xUcmlnZ2VyTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-h1ncu9bteo
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2dtf0hbamm
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/IsolatedCSS.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJc29sYXRlZENTUy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-f3rl06pjke
+
+[D:/CodingWithDavid/Respoitories/AdvanceBlazorBookCompanionCode/Chapter5/Chapter5/Chapter5/Components/Pages/IsolatedCSSVariables.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJc29sYXRlZENTU1ZhcmlhYmxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-e8gmxi80yc

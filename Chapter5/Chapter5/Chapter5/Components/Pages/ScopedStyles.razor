@@ -1,0 +1,18 @@
+﻿@page "/scoped"
+
+<style>
+    .my-component {
+        background-color: lightblue;
+    }
+</style>
+
+<h3>Scoped Styles</h3>
+
+<div class="my-component" @key="componentId">
+    <p>This is a scoped style example.</p>
+</div>
+
+@code {
+    private string componentId = Guid.NewGuid().ToString();
+}
+

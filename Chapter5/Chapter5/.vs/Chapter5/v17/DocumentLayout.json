@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|d:\\codingwithdavid\\respoitories\\advanceblazorbookcompanioncode\\chapter5\\chapter5\\chapter5\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|solutionrelative:chapter5\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|d:\\codingwithdavid\\respoitories\\advanceblazorbookcompanioncode\\chapter5\\chapter5\\chapter5\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|solutionrelative:chapter5\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|d:\\codingwithdavid\\respoitories\\advanceblazorbookcompanioncode\\chapter5\\chapter5\\chapter5\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|solutionrelative:chapter5\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|d:\\codingwithdavid\\respoitories\\advanceblazorbookcompanioncode\\chapter5\\chapter5\\chapter5\\components\\pages\\transitions\\spinner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|solutionrelative:chapter5\\components\\pages\\transitions\\spinner.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|d:\\codingwithdavid\\respoitories\\advanceblazorbookcompanioncode\\chapter5\\chapter5\\chapter5\\components\\pages\\transitions\\animatedbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|solutionrelative:chapter5\\components\\pages\\transitions\\animatedbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|d:\\codingwithdavid\\respoitories\\advanceblazorbookcompanioncode\\chapter5\\chapter5\\chapter5\\components\\pages\\transitions\\triggermodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|solutionrelative:chapter5\\components\\pages\\transitions\\triggermodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|d:\\codingwithdavid\\respoitories\\advanceblazorbookcompanioncode\\chapter5\\chapter5\\chapter5\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|solutionrelative:chapter5\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|d:\\codingwithdavid\\respoitories\\advanceblazorbookcompanioncode\\chapter5\\chapter5\\chapter5\\components\\pages\\transitions\\animatedbuttoncomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0A96975-2D89-43D0-B948-239296EFE6A1}|Chapter5\\Chapter5.csproj|solutionrelative:chapter5\\components\\pages\\transitions\\animatedbuttoncomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Chapter5\\Components\\App.razor",
+              "ToolTip": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\App.razor",
+              "RelativeToolTip": "Chapter5\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:40:32.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Chapter5\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Chapter5\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-18T20:40:17.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimatedBox.razor",
+              "DocumentMoniker": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Transitions\\AnimatedBox.razor",
+              "RelativeDocumentMoniker": "Chapter5\\Components\\Pages\\Transitions\\AnimatedBox.razor",
+              "ToolTip": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Transitions\\AnimatedBox.razor",
+              "RelativeToolTip": "Chapter5\\Components\\Pages\\Transitions\\AnimatedBox.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:38:29.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Chapter5\\Components\\Pages\\Counter.razor",
+              "ToolTip": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Chapter5\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:32:50.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TriggerModal.razor",
+              "DocumentMoniker": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Transitions\\TriggerModal.razor",
+              "RelativeDocumentMoniker": "Chapter5\\Components\\Pages\\Transitions\\TriggerModal.razor",
+              "ToolTip": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Transitions\\TriggerModal.razor",
+              "RelativeToolTip": "Chapter5\\Components\\Pages\\Transitions\\TriggerModal.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:31:06.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Spinner.razor",
+              "DocumentMoniker": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Transitions\\Spinner.razor",
+              "RelativeDocumentMoniker": "Chapter5\\Components\\Pages\\Transitions\\Spinner.razor",
+              "ToolTip": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Transitions\\Spinner.razor",
+              "RelativeToolTip": "Chapter5\\Components\\Pages\\Transitions\\Spinner.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:17:42.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnimatedButtonComponent.razor",
+              "DocumentMoniker": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Transitions\\AnimatedButtonComponent.razor",
+              "RelativeDocumentMoniker": "Chapter5\\Components\\Pages\\Transitions\\AnimatedButtonComponent.razor",
+              "ToolTip": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Pages\\Transitions\\AnimatedButtonComponent.razor",
+              "RelativeToolTip": "Chapter5\\Components\\Pages\\Transitions\\AnimatedButtonComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T20:15:52.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Chapter5\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\CodingWithDavid\\Respoitories\\AdvanceBlazorBookCompanionCode\\Chapter5\\Chapter5\\Chapter5\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Chapter5\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAACAAAAAAAAAAAAA0wCoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T19:18:04.934Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

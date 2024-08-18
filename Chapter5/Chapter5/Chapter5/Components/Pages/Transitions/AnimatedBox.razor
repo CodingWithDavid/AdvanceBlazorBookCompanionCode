@@ -1,0 +1,26 @@
+﻿@page "/animatedbox"
+
+<h3>AnimatedBox</h3>
+
+<!-- AnimatedBoxComponent.razor -->
+<div id="animated-box" @onclick="TriggerAnimation">Click me to animate</div>
+
+@code {
+    [Inject] private IJSRuntime JS { get; set; } = default!;
+
+    private async Task TriggerAnimation()
+    {
+        await JS.InvokeVoidAsync("animateBox");
+    }
+}
+
+<style>
+    #animated-box {
+        width: 100px;
+        height: 100px;
+        background-color: #007bff;
+        margin: 20px;
+        cursor: pointer;
+    }
+</style>
+
