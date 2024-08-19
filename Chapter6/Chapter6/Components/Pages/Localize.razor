@@ -1,0 +1,9 @@
+﻿@page "/localize"
+
+@using Microsoft.Extensions.Localization
+
+@inject IStringLocalizer<Resources.Strings> Localizer
+
+<h1>@Localizer["Greeting"]</h1>
+
+

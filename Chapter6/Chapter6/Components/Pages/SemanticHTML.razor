@@ -1,0 +1,91 @@
+﻿@page "/semanticHTML"
+
+@using Microsoft.Extensions.Localization
+@using System.Globalization
+
+@inject IStringLocalizer<Resources.Strings> Localizer
+
+<h3>SemanticHTML</h3>
+
+<!-- DatePicker.razor -->
+<div class="date-picker">
+    <p id="calendar-instructions" class="sr-only">@Localizer["CalendarInstructions"]</p>
+
+    <label for="date-input">@Localizer["SelectDate"]</label>
+    <input id="date-input" type="text" @bind="selectedDateString" @onfocus="ToggleCalendar" @onkeydown="HandleKeyDown" aria-expanded="@calendarVisible" aria-controls="calendar" aria-describedby="calendar-instructions" />
+
+    <div id="calendar" class="calendar" @key="calendarVisible" style="display:@(calendarVisible ? "block" : "none")" aria-hidden="@(!calendarVisible)">
+        <p id="calendar-instructions" class="sr-only">@Localizer["CalendarInstructions"]</p>
+        @foreach (var week in calendarWeeks)
+        {
+            <div class="calendar-row">
+                @foreach (var day in week)
+                {
+                    <button class="calendar-day @GetDayClass(day)" @onclick="() => SelectDate(day)" tabindex="-1" aria-selected="@(day == selectedDate)">
+                        @day.Day
+                    </button>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@code {    
+
+    private bool calendarVisible = false;
+    private string selectedDateString = "";
+    private DateTime selectedDate = DateTime.Today;
+    private List<List<DateTime>> calendarWeeks = new();
+
+    protected override void OnInitialized()
+    {
+        GenerateCalendar();
+        selectedDateString = selectedDate.ToString("d", CultureInfo.CurrentCulture);
+    }
+
+    private void ToggleCalendar()
+    {
+        calendarVisible = !calendarVisible;
+    }
+
+    private void SelectDate(DateTime date)
+    {
+        selectedDate = date;
+        selectedDateString = date.ToString("d", CultureInfo.CurrentCulture);
+        calendarVisible = false;
+    }
+
+    private void HandleKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter" || e.Key == " " || e.Key == "ArrowDown")
+        {
+            ToggleCalendar();
+        }
+    }
+
+    private void GenerateCalendar()
+    {
+        var firstDayOfMonth = new DateTime(selectedDate.Year, selectedDate.Month, 1);
+        var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(-1);
+        var firstDayOfCalendar = firstDayOfMonth.AddDays(-(int)firstDayOfMonth.DayOfWeek);
+        var lastDayOfCalendar = lastDayOfMonth.AddDays(6 - (int)lastDayOfMonth.DayOfWeek);
+
+        var day = firstDayOfCalendar;
+        while (day <= lastDayOfCalendar)
+        {
+            var week = new List<DateTime>();
+            for (int i = 0; i < 7; i++)
+            {
+                week.Add(day);
+                day = day.AddDays(1);
+            }
+            calendarWeeks.Add(week);
+        }
+    }
+
+    private string GetDayClass(DateTime day)
+    {
+        return day == selectedDate ? "selected" : day.Month != selectedDate.Month ? "out-of-month" : "";
+    }
+}
+

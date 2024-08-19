@@ -1,0 +1,37 @@
+﻿@page "/switcher"
+
+@using Microsoft.Extensions.Localization
+@using System.Globalization
+
+@inject IStringLocalizer<Resources.Strings> Localizer
+@inject NavigationManager Navigation
+
+<h3>Language Switcher</h3>
+
+<select @onchange="ChangeLanguage">
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+</select>
+
+<h1>@Localizer["Greeting"]</h1>
+
+@code {
+    private async Task ChangeLanguage(ChangeEventArgs e)
+    {
+        if (e.Value != null)
+        {
+            var selectedLanguage = e.Value.ToString();
+            if (selectedLanguage != null)
+            {
+                CultureInfo newCulture = new CultureInfo(selectedLanguage);
+
+                CultureInfo.DefaultThreadCurrentCulture = newCulture;
+                CultureInfo.DefaultThreadCurrentUICulture = newCulture;
+
+                Navigation.NavigateTo(Navigation.Uri, forceLoad: true);
+            }
+        }
+        await Task.CompletedTask;
+    }
+}
+
