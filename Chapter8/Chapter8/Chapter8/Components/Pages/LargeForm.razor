@@ -1,0 +1,16 @@
+﻿@page "/large"
+
+<h3>Large Form</h3>
+
+<!-- LargeForm.razor -->
+<form>
+    <input @bind="model.Name" placeholder="Enter Name"/>
+    <input @bind="model.Email" placeholder="Enter Email" />
+    <!-- many other fields -->
+</form>
+
+
+@code {
+
+    private FormData model = new();
+}

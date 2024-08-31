@@ -1,0 +1,15 @@
+﻿@page "/smallForm"
+
+@using Chapter8.Components.Control
+<h3>Better Form</h3>
+
+<form>
+    <NameInput Model="@model" />
+    <EmailInput Model="@model" />
+    <!-- other smaller components -->
+</form>
+
+
+@code {
+    private FormData model = new();
+}

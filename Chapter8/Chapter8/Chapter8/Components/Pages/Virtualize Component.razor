@@ -1,0 +1,20 @@
+﻿@page "/vrit"
+@using Chapter8.Models
+
+
+<h3>Virtualize Component</h3>
+
+<Virtualize Items="@largeDataSet">
+    <p>
+        @context.Name 
+    </p>
+</Virtualize>
+
+
+
+
+@code {
+    private List<Item> largeDataSet = Enumerable.Range(1, 10000).Select(i => new Item { Name = $"Item {i}" }).ToList();
+
+
+}

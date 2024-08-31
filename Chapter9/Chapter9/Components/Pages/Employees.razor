@@ -1,0 +1,49 @@
+﻿@page "/employees"
+
+@using Chapter9.Models
+@using Chapter9.Components.Controls
+
+<DataGrid TItem="Employee" Items="employees" Columns="employeeColumns" />
+
+@code {
+    private List<Employee> employees = Employee.GenerateEmployees();
+
+    private List<ColumnDefinition<Employee>> employeeColumns = new()
+    {
+        new ColumnDefinition<Employee>
+        {
+            Header = "ID",
+            SortProperty = "Id",
+            ValueSelector = (employee) => employee.Id,
+            CellTemplate = (employee) => @<td>@employee.Id</td>
+        },
+        new ColumnDefinition<Employee>
+        {
+            Header = "First Name",
+            SortProperty = "FirstName",
+            ValueSelector = (employee) => employee.FirstName,
+            CellTemplate = (employee) => @<td>@employee.FirstName</td>
+        },
+        new ColumnDefinition<Employee>
+        {
+            Header = "Last Name",
+            SortProperty = "LastName",
+            ValueSelector = (employee) => employee.LastName,
+            CellTemplate = (employee) => @<td>@employee.LastName</td>
+        },
+        new ColumnDefinition<Employee>
+        {
+            Header = "Position",
+            SortProperty = "Position",
+            ValueSelector = (employee) => employee.Position,
+            CellTemplate = (employee) => @<td>@employee.Position</td>
+        },
+        new ColumnDefinition<Employee>
+        {
+            Header = "Salary",
+            SortProperty = "Salary",
+            ValueSelector = (employee) => employee.Salary,
+            CellTemplate = (employee) => @<td>@employee.Salary</td>
+        }
+    };
+}

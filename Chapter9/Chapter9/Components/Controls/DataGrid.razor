@@ -1,0 +1,141 @@
+﻿@typeparam TItem
+
+<input @bind="FilterValue" placeholder="Filter..." @oninput="ApplyFilter" />
+
+<table class="table">
+    <thead>
+        <tr>
+            @foreach (var column in Columns)
+            {
+                <th @onclick="() => OnSort(column)">
+                    @column.Header
+                    @if (SortColumn == column)
+                    {
+                        <span>@(SortDirection == "asc" ? "▲" : "▼")</span>
+                    }
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in PagedItems)
+        {
+            <tr>
+                @foreach (var column in Columns)
+                {
+                    <td>@column.CellTemplate(item)</td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Pagination Controls -->
+<div class="pagination">
+    <button @onclick="PreviousPage" disabled="@(currentPage == 0)">Previous</button>
+@*     @for (int i = 0; i < totalPages; i++)
+    {
+        var cp = i + 1;
+        <button @onclick="() => OnPageChanged(i)" class="@(i == currentPage ? "active" : "")">@cp</button>
+    } *@
+    <button @onclick="NextPage" disabled="@(currentPage == totalPages - 1)">Next</button>
+</div>
+
+@code {
+    [Parameter]
+    public IEnumerable<TItem> Items { get; set; } = [];
+
+    [Parameter]
+    public List<ColumnDefinition<TItem>> Columns { get; set; } = [];
+
+    private IEnumerable<TItem> FilteredItems = [];
+    private int currentPage = 0;    
+    private int pageSize = 10;
+    private int totalPages = 1;
+    private string FilterValue = "";
+    private string SortDirection = "asc";
+    private ColumnDefinition<TItem> SortColumn = new();
+
+    protected override void OnParametersSet()
+    {
+        FilteredItems = Items;
+        ApplyFilter();
+        totalPages = Items.Count() / pageSize;
+    }
+
+    private IEnumerable<TItem> PagedItems => FilteredItems.Skip(currentPage * pageSize).Take(pageSize);
+
+    private void OnPageChanged(int page)
+    {
+        currentPage = page;
+    }
+
+    private void ApplyFilter()
+    {
+        if (string.IsNullOrEmpty(FilterValue))
+        {
+            FilteredItems = Items;
+        }
+        else
+        {
+            var property = typeof(TItem).GetProperty("Name");
+
+            if (property != null)
+            {
+                FilteredItems = Items.Where(item => property.GetValue(item)?.ToString().Contains(FilterValue, StringComparison.OrdinalIgnoreCase) == true);
+            }
+        }
+        currentPage = 0; // Reset to the first page after applying a filter
+    }
+
+    private void NextPage()
+    {
+        if (currentPage < totalPages - 1)
+        {
+            currentPage++;
+        }
+    }
+
+    private void PreviousPage()
+    {
+        if (currentPage > 0)
+        {
+            currentPage--;
+        }
+    }
+
+    private void OnSort(ColumnDefinition<TItem> column)
+    {
+        if (SortColumn == column)
+        {
+            // Toggle sort direction
+            SortDirection = SortDirection == "asc" ? "desc" : "asc";
+        }
+        else
+        {
+            // Set new sort column
+            SortColumn = column;
+            SortDirection = "asc";
+        }
+
+        ApplySorting();
+    }
+
+    private void ApplySorting()
+    {
+        if (SortColumn == null)
+        {
+            return; // No sorting applied
+        }
+
+        var property = typeof(TItem).GetProperty(SortColumn.SortProperty);
+
+        if (property != null)
+        {
+            FilteredItems = SortDirection == "asc"
+                ? FilteredItems.OrderBy(item => property.GetValue(item, null))
+                : FilteredItems.OrderByDescending(item => property.GetValue(item, null));
+        }
+    }
+
+}

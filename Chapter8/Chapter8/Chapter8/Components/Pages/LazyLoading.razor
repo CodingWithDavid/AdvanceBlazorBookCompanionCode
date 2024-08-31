@@ -1,0 +1,28 @@
+﻿@page "/lazy"
+
+@using Chapter8.Models
+@using Chapter8.Services
+
+@inject IDataService DataService
+
+<div>
+    <button @onclick="LoadData">Load Data</button>
+    <div>
+        @if (data != null)
+        {
+            @foreach (var item in data)
+            {
+                <div>@item.Name</div>
+            }
+        }
+    </div>
+</div>
+
+@code {
+    private List<Item> data = [];
+
+    private async Task LoadData()
+    {
+        data = await DataService.GetItemsAsync();
+    }
+}

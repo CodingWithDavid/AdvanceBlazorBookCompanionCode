@@ -1,0 +1,52 @@
+﻿@page "/wc"
+
+@inject ILogger<WeatherComponent> Logger
+
+@using Chapter7.Services
+@inject IWeatherService WeatherService
+
+<div>@weatherData</div>
+<button @onclick="GetWeather">Get Weather</button>
+
+<div>@weatherDataDiagnostics</div>
+<button @onclick="GetWeatherDiagnostics">Get Weather With Diagnostics</button>
+
+@code {
+    private string weatherData = string.Empty;
+     private string weatherDataDiagnostics = string.Empty;
+
+    private async Task GetWeather()
+    {
+        // Call the weather service to get the weather data
+        try
+        {
+            weatherData = await WeatherService.GetWeatherAsync("some-location");
+            Logger.LogInformation("Weather data fetched successfully");
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, "Failed to fetch weather data");
+        }
+
+        // Trigger a UI refresh
+        StateHasChanged();
+    }
+
+    private async Task GetWeatherDiagnostics()
+    {
+        // Call the weather service to get the weather data
+        try
+        {
+            weatherDataDiagnostics = await WeatherService.GetWeatherAsync();
+            Logger.LogInformation("Weather data fetched successfully");
+        }
+        catch (Exception ex)
+        {
+            Logger.LogError(ex, "Failed to fetch weather data");
+        }
+
+        // Trigger a UI refresh
+        StateHasChanged();
+    }
+}
+
